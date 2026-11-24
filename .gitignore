@@ -1,0 +1,5 @@
+.DS_Store
+*.zip
+*-workspace/
+dist/
+__pycache__/

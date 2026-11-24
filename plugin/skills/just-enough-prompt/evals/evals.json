@@ -1,0 +1,54 @@
+{
+  "skill_name": "just-enough-prompt",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "improve this prompt: write an email to my landlord about the broken heater",
+      "expected_output": "Diagnosis, an improved prompt with placeholders for unknown facts (address, dates, how long it's been broken), and a 'what changed' table that also lists skipped practices.",
+      "assertions": [
+        "The response has Diagnosis, Improved prompt and What changed sections",
+        "Unknown facts appear as [placeholders], not invented dates or names",
+        "A 'Fill in before using' list is present",
+        "The table includes at least one skipped practice with a reason"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Can you review my system prompt? It keeps ignoring the JSON format sometimes.\n\nYou are a helpful assistant. Answer questions about our product. Respond in JSON. Be nice.",
+      "expected_output": "Targets the output-format problem: adds a concrete JSON schema/example (BP-4/BP-6), context about the product as placeholder, keeps it concise; skips irrelevant practices.",
+      "assertions": [
+        "The improved prompt specifies the JSON structure (keys or an example)",
+        "The response does not add a reasoning trigger like 'think step by step'",
+        "The improved prompt stays in English"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Translate 'good morning' into French",
+      "expected_output": "Already clear; the skill should not over-engineer. Either answers or returns a minimal improvement with most practices skipped.",
+      "assertions": [
+        "The improved prompt (if any) is at most 3 lines",
+        "No role, few-shot examples or reasoning trigger are added"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "покращ промпт: склади план тренувань",
+      "expected_output": "Improved prompt in Ukrainian, with placeholders for goal, level, days per week; headings in Ukrainian.",
+      "assertions": [
+        "The improved prompt is written in Ukrainian",
+        "Training goal, level or schedule appear as placeholders rather than invented values"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "This prompt for o-series/Claude with extended thinking gives shallow answers, fix it: 'Think step by step. Which database should we use?'",
+      "expected_output": "Removes the step-by-step trigger for a reasoning model, adds context placeholders (workload, scale, constraints) and success criteria.",
+      "assertions": [
+        "'Think step by step' is removed from the improved prompt",
+        "The improved prompt asks for or contains placeholders about the workload or constraints",
+        "Success criteria for the recommendation are stated"
+      ]
+    }
+  ]
+}

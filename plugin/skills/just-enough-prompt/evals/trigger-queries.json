@@ -1,0 +1,22 @@
+[
+  { "query": "can you make this prompt better? 'summarize this article'", "should_trigger": true },
+  { "query": "my system prompt for the support bot gives inconsistent answers, here it is: ...", "should_trigger": true },
+  { "query": "rewrite this so ChatGPT gives me a proper table: compare iphone and pixel", "should_trigger": true },
+  { "query": "review my agent instructions before I ship them", "should_trigger": true },
+  { "query": "this prompt doesn't work, the model keeps making stuff up", "should_trigger": true },
+  { "query": "покращ мій промпт для генерації описів товарів", "should_trigger": true },
+  { "query": "how should I phrase this request to Claude so it writes tests for my component?", "should_trigger": true },
+  { "query": "turn 'write a blog post about AI' into a good prompt", "should_trigger": true },
+  { "query": "optimiza este prompt: 'haz un resumen'", "should_trigger": true },
+  { "query": "fix prompt: classify these tickets", "should_trigger": true },
+  { "query": "compress this system prompt to use fewer tokens", "should_trigger": false },
+  { "query": "what is chain-of-thought prompting?", "should_trigger": false },
+  { "query": "write me a blog post about AI", "should_trigger": false },
+  { "query": "check my SKILL.md frontmatter is valid", "should_trigger": false },
+  { "query": "summarize this article for me", "should_trigger": false },
+  { "query": "is GPT or Claude better at coding?", "should_trigger": false },
+  { "query": "translate this email to German", "should_trigger": false },
+  { "query": "debug why my python script throws KeyError", "should_trigger": false },
+  { "query": "explain what a system prompt is to my manager", "should_trigger": false },
+  { "query": "proofread my cover letter for typos", "should_trigger": false }
+]

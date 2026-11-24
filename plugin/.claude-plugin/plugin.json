@@ -1,0 +1,14 @@
+{
+  "name": "just-enough-prompt",
+  "description": "Improves a prompt by adding only the prompt-engineering practices it is missing, and explains what changed and why.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Stanislav Fedyna"
+  },
+  "homepage": "https://github.com/stanislav-fedyna-dev/just-enough-prompt",
+  "repository": "https://github.com/stanislav-fedyna-dev/just-enough-prompt",
+  "license": "MIT",
+  "keywords": ["prompt-engineering", "prompts", "prompt-improvement", "writing", "productivity", "skills"],
+  "supportUrl": "https://github.com/stanislav-fedyna-dev/just-enough-prompt/issues",
+  "privacyPolicyUrl": "https://github.com/stanislav-fedyna-dev/just-enough-prompt/blob/main/PRIVACY.md"
+}

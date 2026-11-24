@@ -1,0 +1,19 @@
+{
+  "name": "just-enough-prompt",
+  "owner": {
+    "name": "Stanislav Fedyna"
+  },
+  "metadata": {
+    "description": "Prompt-improvement skill for Claude and other agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "just-enough-prompt",
+      "description": "Improves a prompt by adding only the prompt-engineering practices it is missing, and explains what changed and why.",
+      "version": "1.0.0",
+      "source": "./plugin",
+      "author": { "name": "Stanislav Fedyna" }
+    }
+  ]
+}

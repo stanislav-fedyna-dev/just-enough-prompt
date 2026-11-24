@@ -1,0 +1,24 @@
+name: release
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version tag to create, e.g. v1.0.0"
+        required: true
+        default: "v1.0.0"
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package skill
+        run: cd plugin/skills && zip -r ../../just-enough-prompt.zip just-enough-prompt
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.version || github.ref_name }}
+        run: gh release create "$TAG" just-enough-prompt.zip --title "$TAG" --notes-file CHANGELOG.md --target "$GITHUB_SHA"

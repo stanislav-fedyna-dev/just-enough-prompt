@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>just-enough-prompt — Fix what your prompt is missing. Nothing more.</title>
+  <rect x="1" y="1" width="1278" height="358" rx="18" fill="#0D1117" stroke="#262C36" stroke-width="2"/>
+  <text x="72" y="112" font-size="15" font-weight="600" letter-spacing="3" fill="#8B949E">AGENT SKILL</text>
+  <text x="70" y="178" font-size="56" font-weight="800" letter-spacing="-1.5" fill="#E6EDF3">just-enough-prompt</text>
+  <text x="72" y="228" font-size="28" font-weight="600" fill="#A594F9">Fix what your prompt is missing.</text>
+  <text x="72" y="262" font-size="28" font-weight="600" fill="#A594F9">Nothing more.</text>
+  <text x="72" y="306" font-size="18" fill="#8B949E">Adds only the practices it needs, and shows why.</text>
+  <rect x="724" y="86" width="290" height="188" rx="14" fill="#161B22" stroke="#262C36" stroke-width="1.5"/>
+  <circle cx="746" cy="110" r="5" fill="#3A414C"/><circle cx="764" cy="110" r="5" fill="#3A414C"/><circle cx="782" cy="110" r="5" fill="#3A414C"/>
+  <text x="746" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#E6EDF3">write an email</text>
+  <text x="746" y="190" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#E6EDF3">about the project</text>
+  <text x="746" y="216" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#E6EDF3">delay<tspan fill="#A594F9">▍</tspan></text>
+  <path d="M1016,180 L1040,180" stroke="#3A414C" stroke-width="2" stroke-linecap="round"/>
+  
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.4s" fill="freeze"/>
+    <rect x="1052" y="86" width="150" height="38" rx="19" fill="#2A2250" stroke="#A594F9" stroke-width="1.5" />
+    <text x="1070" y="111" font-size="16" font-weight="600" fill="#D4CCFF">+ Context</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.4s" fill="freeze"/>
+    <rect x="1052" y="136" width="150" height="38" rx="19" fill="#2A2250" stroke="#A594F9" stroke-width="1.5" />
+    <text x="1070" y="161" font-size="16" font-weight="600" fill="#D4CCFF">+ Tone</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.30s" dur="0.4s" fill="freeze"/>
+    <rect x="1052" y="186" width="150" height="38" rx="19" fill="#2A2250" stroke="#A594F9" stroke-width="1.5" />
+    <text x="1070" y="211" font-size="16" font-weight="600" fill="#D4CCFF">+ Length</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.4s" fill="freeze"/>
+    <rect x="1052" y="236" width="170" height="38" rx="19" fill="none" stroke="#3A414C" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="1070" y="261" font-size="16" font-weight="500" fill="#8B949E">Role &#183; skipped</text><line x1="1070" y1="256" x2="1180" y2="256" stroke="#8B949E" stroke-width="1.5"/>
+  </g>
+</svg>
